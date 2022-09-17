@@ -2,7 +2,13 @@ $backgroundColor: linear-gradient(90deg, #410076, #8820dd);
 $backgroundHeight: 100vh;
 $backgroundWidth: 100vw;
 $fontColor: white;
-$fontSize: 5rem;
+$fontSize: 2rem;
+
+@mixin position($tValue, $paddingValue) {
+  position: absolute;
+  top: $tValue;
+  padding: $paddingValue;
+}
 
 .App {
   height: $backgroundHeight;
@@ -15,3 +21,12 @@ $fontSize: 5rem;
   background-image: $backgroundColor;
 }
 
+.App-name {
+  @include position(0, 25px);
+  left: 0;
+}
+
+.Startup {
+  @include position(0, 25px);
+  right: 0;
+}

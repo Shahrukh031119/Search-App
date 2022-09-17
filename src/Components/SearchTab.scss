@@ -1,0 +1,30 @@
+@mixin common($backgroundColor, $borderRadius) {
+    background-color: $backgroundColor;
+    border-radius: $borderRadius;
+}
+
+.Input {
+    padding-top: 105px;
+    display: flex;
+}
+
+.Input input {
+    @include common(white,10px);
+    border: 0;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    font-size: 25px;
+    padding: 10px 30px;
+    height: 40px;
+    width: 550px;
+}
+
+.SearchIcon {
+    @include common(white,10px);
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    padding: 10px;
+    width: 50px;
+    display: grid;
+    place-items: center;
+}
