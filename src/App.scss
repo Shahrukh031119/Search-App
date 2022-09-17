@@ -1,0 +1,17 @@
+$backgroundColor: linear-gradient(90deg, #410076, #8820dd);
+$backgroundHeight: 100vh;
+$backgroundWidth: 100vw;
+$fontColor: white;
+$fontSize: 5rem;
+
+.App {
+  height: $backgroundHeight;
+  width: $backgroundWidth;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  color: $fontColor;
+  font-size: $fontSize;
+  background-image: $backgroundColor;
+}
+
