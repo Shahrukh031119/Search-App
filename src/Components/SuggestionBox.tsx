@@ -18,11 +18,11 @@ const SuggestionBox = () => {
             <div className='PopularSuggestions'>
                 <b>Popular Suggestions</b>
                 <div className='SuggestionItems'>
-                    <div>{faker.commerce.product()}</div>
-                    <div>{faker.commerce.product()}</div>
-                    <div>{faker.commerce.product()}</div>
-                    <div>{faker.commerce.product()}</div>
-                    <div>{faker.commerce.product()}</div>
+                    <div>{faker.commerce.productName()}</div>
+                    <div>{faker.commerce.productName()}</div>
+                    <div>{faker.commerce.productName()}</div>
+                    <div>{faker.commerce.productName()}</div>
+                    <div>{faker.commerce.productName()}</div>
                 </div>
             </div>
         </div>
