@@ -3,6 +3,12 @@
     border-radius: $borderRadius;
 }
 
+.Search {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
 .Input {
     padding-top: 105px;
     display: flex;

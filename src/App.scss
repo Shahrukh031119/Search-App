@@ -2,7 +2,7 @@ $backgroundColor: linear-gradient(90deg, #410076, #8820dd);
 $backgroundHeight: 100vh;
 $backgroundWidth: 100vw;
 $fontColor: white;
-$fontSize: 2rem;
+$fontSize: 1.5rem;
 
 @mixin position($tValue, $paddingValue) {
   position: absolute;
